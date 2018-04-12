@@ -3,53 +3,161 @@
 <pre>
 <h1>礦ision Build Log</h1>
 <h2>Tool Versions:</h2>
-IDE-Version: μVision V5.14.0.0
-Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: a demo, demo, LIC=9WSKP-MZJ4L-2ZCW4-F15YF-Q26WN-EQLAE
+IDE-Version: μVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a a, a, LIC=----
  
 Tool Versions:
-Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
-Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
-C Compiler:      Armcc.exe V5.05 update 1 (build 106)
-Assembler:       Armasm.exe V5.05 update 1 (build 106)
-Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
-Library Manager: ArmAr.exe V5.05 update 1 (build 106)
-Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
-CPU DLL:         SARMCM3.DLL V5.14.0.0
-Dialog DLL:      DCM.DLL V1.13.1.0
-Target DLL:      Segger\JL2CM3.dll V2.99.13.0
-Dialog DLL:      TCM.DLL V1.14.4.0
+Toolchain:       MDK-Lite  Version: 5.20
+Toolchain Path:  e:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DCM.DLL V1.13.7.0
+Target DLL:      Segger\JL2CM3.dll V2.99.20.0
+Dialog DLL:      TCM.DLL V1.14.9.0
  
 <h2>Project:</h2>
-E:\PROJECT\MC\MC2071_三路继电器模块\MC2071_三路继电器模块\Software\Project\ApplicationV1.16\MDK-ARM\Project.uvprojx
-Project File Date:  03/30/2018
+D:\MyProject\MC2071\Software\Project\ApplicationV1.16\MDK-ARM\Project.uvprojx
+Project File Date:  04/02/2018
 
 <h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'e:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'STM32103'
+compiling database.c...
+..\database.h(20): error:  #5: cannot open source input file "Lib_UserGlobal.h": No such file or directory
+  #include "Lib_UserGlobal.h"
+..\database.c: 0 warnings, 1 error
+compiling main.c...
+..\config.h(19): error:  #5: cannot open source input file "Lib_BlockDelay.h": No such file or directory
+  #include "Lib_BlockDelay.h"
+..\main.c: 0 warnings, 1 error
+compiling stm32f10x_it.c...
+..\stm32f10x_it.c(26): error:  #5: cannot open source input file "CanBus.h": No such file or directory
+  #include "CanBus.h"
+..\stm32f10x_it.c: 0 warnings, 1 error
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_tim.c...
+compiling core_cm3.c...
+compiling stm32f10x_wwdg.c...
 assembling startup_stm32f10x_md.s...
+compiling BSP_Flash.c...
+"no source": Error:  #5: cannot open source input file "..\BSP\Src\BSP_Flash.c": No such file or directory
+..\BSP\Src\BSP_Flash.c: 0 warnings, 1 error
+compiling BSP_gpio.c...
+"no source": Error:  #5: cannot open source input file "..\BSP\Src\BSP_gpio.c": No such file or directory
+..\BSP\Src\BSP_gpio.c: 0 warnings, 1 error
+compiling system_stm32f10x.c...
+compiling BSP.c...
+"no source": Error:  #5: cannot open source input file "..\BSP\Src\BSP.c": No such file or directory
+..\BSP\Src\BSP.c: 0 warnings, 1 error
+compiling BSP_can.c...
+"no source": Error:  #5: cannot open source input file "..\BSP\Src\BSP_can.c": No such file or directory
+..\BSP\Src\BSP_can.c: 0 warnings, 1 error
+compiling BSP_SysTick.c...
+"no source": Error:  #5: cannot open source input file "..\BSP\Src\BSP_SysTick.c": No such file or directory
+..\BSP\Src\BSP_SysTick.c: 0 warnings, 1 error
+compiling BSP_timer.c...
+"no source": Error:  #5: cannot open source input file "..\BSP\Src\BSP_timer.c": No such file or directory
+..\BSP\Src\BSP_timer.c: 0 warnings, 1 error
+compiling BSP_24CXX.c...
+"no source": Error:  #5: cannot open source input file "..\BSP\Src\BSP_24CXX.c": No such file or directory
+..\BSP\Src\BSP_24CXX.c: 0 warnings, 1 error
+compiling BSP_EEPROM.c...
+"no source": Error:  #5: cannot open source input file "..\BSP\Src\BSP_EEPROM.c": No such file or directory
+..\BSP\Src\BSP_EEPROM.c: 0 warnings, 1 error
+compiling BSP_IIC.c...
+"no source": Error:  #5: cannot open source input file "..\BSP\Src\BSP_IIC.c": No such file or directory
+..\BSP\Src\BSP_IIC.c: 0 warnings, 1 error
+compiling BSP_tlc59108.c...
+"no source": Error:  #5: cannot open source input file "..\BSP\Src\BSP_tlc59108.c": No such file or directory
+..\BSP\Src\BSP_tlc59108.c: 0 warnings, 1 error
+compiling BSP_key.c...
+"no source": Error:  #5: cannot open source input file "..\BSP\Src\BSP_key.c": No such file or directory
+..\BSP\Src\BSP_key.c: 0 warnings, 1 error
+compiling BSP_beep.c...
+"no source": Error:  #5: cannot open source input file "..\BSP\Src\BSP_beep.c": No such file or directory
+..\BSP\Src\BSP_beep.c: 0 warnings, 1 error
+compiling BSP_analog.c...
+"no source": Error:  #5: cannot open source input file "..\BSP\Src\BSP_analog.c": No such file or directory
+..\BSP\Src\BSP_analog.c: 0 warnings, 1 error
+compiling bsp_led.C...
+"no source": Error:  #5: cannot open source input file "..\BSP\Src\bsp_led.C": No such file or directory
+..\BSP\Src\bsp_led.C: 0 warnings, 1 error
+compiling Protocol_xModem.c...
+"no source": Error:  #5: cannot open source input file "..\CanBUs\Protocol_xModem.c": No such file or directory
+..\CanBUs\Protocol_xModem.c: 0 warnings, 1 error
+compiling CanBus.c...
+"no source": Error:  #5: cannot open source input file "..\CanBUs\CanBus.c": No such file or directory
+..\CanBUs\CanBus.c: 0 warnings, 1 error
 compiling Protocol_M1.c...
-linking...
-Program Size: Code=25152 RO-data=380 RW-data=268 ZI-data=12988  
-FromELF: creating hex file...
-".\STM32100E-EVAL\STM32F103.axf" - 0 Error(s), 0 Warning(s).
+"no source": Error:  #5: cannot open source input file "..\CanBUs\Protocol_M1.c": No such file or directory
+..\CanBUs\Protocol_M1.c: 0 warnings, 1 error
+compiling Protocol_M1_Device.c...
+"no source": Error:  #5: cannot open source input file "..\CanBUs\Protocol_M1_Device.c": No such file or directory
+..\CanBUs\Protocol_M1_Device.c: 0 warnings, 1 error
+compiling Protocol_M1_Loop.c...
+"no source": Error:  #5: cannot open source input file "..\CanBUs\Protocol_M1_Loop.c": No such file or directory
+..\CanBUs\Protocol_M1_Loop.c: 0 warnings, 1 error
+compiling Protocol_M1_Scene.c...
+"no source": Error:  #5: cannot open source input file "..\CanBUs\Protocol_M1_Scene.c": No such file or directory
+..\CanBUs\Protocol_M1_Scene.c: 0 warnings, 1 error
+compiling Lib_BlockDelay.c...
+"no source": Error:  #5: cannot open source input file "..\Lib\Lib_BlockDelay.c": No such file or directory
+..\Lib\Lib_BlockDelay.c: 0 warnings, 1 error
+compiling ConfigMap.c...
+"no source": Error:  #5: cannot open source input file "..\CanBUs\ConfigMap.c": No such file or directory
+..\CanBUs\ConfigMap.c: 0 warnings, 1 error
+compiling Lib_UserGlobal.C...
+"no source": Error:  #5: cannot open source input file "..\Lib\Lib_UserGlobal.C": No such file or directory
+..\Lib\Lib_UserGlobal.C: 0 warnings, 1 error
+compiling timer.c...
+..\config.h(19): error:  #5: cannot open source input file "Lib_BlockDelay.h": No such file or directory
+  #include "Lib_BlockDelay.h"
+..\..\..\Utilities\Timer\Src\timer.c: 0 warnings, 1 error
+compiling Queue_List.c...
+".\STM32100E-EVAL\STM32F103.axf" - 4 Error(s), 0 Warning(s).
 
 <h2>Software Packages used:</h2>
 
 Package Vendor: ARM
-                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
-                ARM::CMSIS:CORE:3.40.0
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
                 CMSIS (Cortex Microcontroller Software Interface Standard)
-   * Component: CORE Version: 3.40.0
+   * Component: CORE Version: 4.3.0
 
 <h2>Collection of Component include folders:</h2>
-  E:\PROJECT\MC\MC2071_三路继电器模块\MC2071_三路继电器模块\Software\Project\ApplicationV1.16\MDK-ARM\RTE
-  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
-  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0
+  D:\MyProject\MC2071\Software\Project\ApplicationV1.16\MDK-ARM\RTE
+  e:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
 
 <h2>Collection of Component Files used:</h2>
 
-   * Component: ARM::CMSIS:CORE:3.40.0
-      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+   * Component: ARM::CMSIS:CORE:4.3.0
+Target not created.
+Build Time Elapsed:  00:00:16
 </pre>
 </body>
 </html>

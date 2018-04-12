@@ -1,11 +1,11 @@
 .\stm32100e-eval\queue_list.o: ..\..\..\Utilities\Queue_List\src\Queue_List.c
-.\stm32100e-eval\queue_list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\stm32100e-eval\queue_list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\stm32100e-eval\queue_list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\stm32100e-eval\queue_list.o: e:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\stm32100e-eval\queue_list.o: e:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\stm32100e-eval\queue_list.o: e:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\stm32100e-eval\queue_list.o: ..\..\..\Utilities\Queue_List\inc\Queue_List.h
 .\stm32100e-eval\queue_list.o: ..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 .\stm32100e-eval\queue_list.o: ..\..\..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
-.\stm32100e-eval\queue_list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\stm32100e-eval\queue_list.o: e:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\stm32100e-eval\queue_list.o: ..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
 .\stm32100e-eval\queue_list.o: ..\stm32f10x_conf.h
 .\stm32100e-eval\queue_list.o: ..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h

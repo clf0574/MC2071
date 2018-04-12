@@ -2,7 +2,7 @@
 .\stm32100e-eval\stm32f10x_it.o: ..\stm32f10x_it.h
 .\stm32100e-eval\stm32f10x_it.o: ..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 .\stm32100e-eval\stm32f10x_it.o: ..\..\..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
-.\stm32100e-eval\stm32f10x_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\stm32100e-eval\stm32f10x_it.o: e:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\stm32100e-eval\stm32f10x_it.o: ..\..\..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
 .\stm32100e-eval\stm32f10x_it.o: ..\stm32f10x_conf.h
 .\stm32100e-eval\stm32f10x_it.o: ..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -29,13 +29,3 @@
 .\stm32100e-eval\stm32f10x_it.o: ..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
 .\stm32100e-eval\stm32f10x_it.o: ..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\stm32100e-eval\stm32f10x_it.o: ..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
-.\stm32100e-eval\stm32f10x_it.o: ..\CanBUs\CanBus.h
-.\stm32100e-eval\stm32f10x_it.o: ..\BSP\Inc\BSP_can.h
-.\stm32100e-eval\stm32f10x_it.o: ..\config.h
-.\stm32100e-eval\stm32f10x_it.o: ..\type.h
-.\stm32100e-eval\stm32f10x_it.o: ..\Lib\Lib_BlockDelay.h
-.\stm32100e-eval\stm32f10x_it.o: ..\config.h
-.\stm32100e-eval\stm32f10x_it.o: ..\BSP\Inc\BSP_gpio.h
-.\stm32100e-eval\stm32f10x_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\stm32100e-eval\stm32f10x_it.o: ..\..\..\Utilities\Queue_List\inc\Queue_List.h
-.\stm32100e-eval\stm32f10x_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
